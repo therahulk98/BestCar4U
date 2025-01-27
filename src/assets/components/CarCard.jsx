@@ -8,10 +8,8 @@ const CarCard = ({ make = "Maruti Suzuki", model = "Desire", price = "Rs. 4.20 L
 
   return (
     <div className=' '>
-      <div className='  border-black w-[380px] h-[250px] ' >
-        <div className=' flex items-center justify-center h-[75%] border-2 border-black '>
-          photo
-        </div>
+      <div className='  border-black w-[380px] h[100px] ' >
+        
         <div className='h-[25%] border-2 border-black flex justify-between'>
           <div className='flex flex-col items-start justify-center pl-1'>
             <p className='text-gray-100'> {make}</p>

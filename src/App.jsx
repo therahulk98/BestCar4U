@@ -40,6 +40,9 @@ const getUniqueCars = (carData) => {
     }
   });
 
+  console.log("Unique cars:", carMap);
+  
+
   return Object.values(carMap);
 };
 
@@ -168,6 +171,8 @@ const App = () => {
   return (
     <div className="flex items-center justify-center h-full text-center bg-gradient-to-r from-purple-500 to-red-500">
       <div className="w-full min-h-screen text-center ">
+
+        {/* Hero Section */}
         <div className="flex flex-col items-center justify-center min-h-screen ">
           
           <h1 className=" text-6xl font-bold shadow-xl">Want to Find the Best Car for You?</h1>
@@ -239,20 +244,27 @@ const App = () => {
             )}
           </div>
 
+          
+
           {/* Right Side */}
-          <div className="w-5/6 p-4 bg-gradient-to-r from-purple-400 to-red-400">
+          <div className="w-full min-h-screen flex flex-col items-center bg-gradient-to-r from-purple-500 to-red-500 ">
           {/* Selected Filters */}
+            <div className="flex flex-wrap justify-start w-full p-4 gap-5">
           {Object.entries(filters)
                     .filter(([key, value]) => value)
                     .map(([key, value]) => (
-                      <div key={key} className="flex justify-between bg-violet-500 text-white p-2 my-2 rounded">
+                      <div key={key} className="flex justify-between items-center bg-violet-500 text-white p-2 my-2 rounded-full w-fit gap-5 font-semibold h-10 border-2 border-gray-300 ">
                         {key.charAt(0).toUpperCase() + key.slice(1)}: {value}
-                        <button className="ml-2 text-red-600 font-bold text-2xl" onClick={() => clearFilter(key)}>
+                        <button className="ml-2 text-black font-extrabold text-2xl " onClick={() => clearFilter(key)}>
                           X
                         </button>
                       </div>
                     ))}
-            <div className="flex flex-wrap gap-5 justify-center">
+            </div>
+
+
+
+            <div className="flex flex-wrap gap-4 justify-center ">
               {filteredCarsBySearch.length > 0 ? (
                 filteredCarsBySearch.map((car, index) => (
                   <CarCard  key={index} make={car.make} model={car.model} price={car.price} image={car.image} />
