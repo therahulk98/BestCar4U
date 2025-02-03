@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 
+
+
 const CarCard = ({ car, onCardClick }) => {
   const [carImage, setCarImage] = useState(null);
 
-  const API_KEY = "AIzaSyD2LJPA05jgEwLlFOD2pW2aUCOKxPqCGdo"; // Your API Key
-  const SEARCH_ENGINE_ID = "20b49f23c668347ec"; // Your Search Engine ID
+  const API_KEY = import.meta.env.VITE_REACT_APP_API_KEY;
+  const SEARCH_ENGINE_ID = import.meta.env.VITE_REACT_APP_SEARCH_ENGINE_ID;
+  console.log("API Key:", API_KEY);
+  console.log("Search Engine ID:", SEARCH_ENGINE_ID);
+  console.log(import.meta.env);
 
   const handleCarClick = async () => {
     if (!carImage) {
@@ -18,16 +23,16 @@ const CarCard = ({ car, onCardClick }) => {
         if (data.items && data.items.length > 0) {
           const imageUrl = data.items[0].link;
           setCarImage(imageUrl);
-          onCardClick(car, imageUrl); // Send both car details and image URL to parent
+          onCardClick(car, imageUrl); 
         } else {
-          onCardClick(car, "default-image-url"); // Set a default image if no search results
+          onCardClick(car, "default-image-url"); 
         }
       } catch (error) {
         console.error("Error fetching car data:", error);
-        onCardClick(car, "default-image-url"); // Use a default image on error
+        onCardClick(car, "default-image-url"); 
       }
     } else {
-      onCardClick(car, carImage); // If image is already fetched, use it
+      onCardClick(car, carImage); 
     }
   };
   

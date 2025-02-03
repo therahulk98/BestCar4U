@@ -198,10 +198,10 @@ const App = () => {
 
   return (
     <div className="flex items-center justify-center h-full text-center bg-gradient-to-r from-purple-500 to-red-500">
-      <div className="w-full min-h-screen text-center ">
+      <div className="w-full min-h-screen text-center">
         {/* Hero Section */}
-        <div className="flex flex-col items-center justify-center min-h-screen ">
-          <h1 className=" text-6xl font-bold shadow-xl">
+        <div className="flex flex-col items-center justify-center min-h-screen p-4">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold shadow-xl">
             Want to Find the Best Car for You?
           </h1>
           <br />
@@ -209,56 +209,56 @@ const App = () => {
           <br />
           <br />
           <button
-            className="text-xl font-bold border-2 p-4 rounded-full border-white shadow-xl hover:bg-black hover:text-yellow-500"
+            className="text-lg md:text-xl font-bold border-2 p-3 md:p-4 rounded-full border-white shadow-xl hover:bg-black hover:text-yellow-500"
             onClick={handleScroll}
           >
             Let's go
           </button>
         </div>
-
-        <div className="flex min-h-screen ">
+  
+        <div className="flex flex-col md:flex-row min-h-screen">
           {/* Left Sidebar */}
-          <div className="w-1/6 bg-violet-600 p-5 h-full">
+          <div className="w-full md:w-1/4 lg:w-1/6 bg-violet-600 p-5 h-full">
             {/* Filter Section */}
-            <h3 className="font-bold text-4xl pt-5 bg-violet-800 text-white shadow-xl">
+            <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl pt-5 bg-violet-800 text-white shadow-xl">
               Filter
             </h3>
             <input
               type="text"
               placeholder="Search cars..."
-              className="w-full p-2 mt-4 rounded border bg-violet-300 border-white text-black shadow-xl text-xl placeholder:text-black"
+              className="w-full p-2 mt-4 rounded border bg-violet-300 border-white text-black shadow-xl text-lg md:text-xl placeholder:text-black"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-            <div className="font-semibold text-md bg-violet-500   p-4 shadow-xl">
-              <ul className="space-y-2 cursor-pointer text-white ">
+            <div className="font-semibold text-sm md:text-md bg-violet-500 p-4 shadow-xl">
+              <ul className="space-y-2 cursor-pointer text-white">
                 <li
                   className="hover:text-yellow-400"
-                  onClick={() => toggleModal("budget")}
+                  onClick={() => toggleModal('budget')}
                 >
                   Budget
                 </li>
                 <li
                   className="hover:text-yellow-400"
-                  onClick={() => toggleModal("brand")}
+                  onClick={() => toggleModal('brand')}
                 >
                   Brand
                 </li>
                 <li
                   className="hover:text-yellow-400"
-                  onClick={() => toggleModal("bodyType")}
+                  onClick={() => toggleModal('bodyType')}
                 >
                   Body Type
                 </li>
                 <li
                   className="hover:text-yellow-400"
-                  onClick={() => toggleModal("fuelType")}
+                  onClick={() => toggleModal('fuelType')}
                 >
                   Fuel Type
                 </li>
                 <li
                   className="hover:text-yellow-400"
-                  onClick={() => toggleModal("transmission")}
+                  onClick={() => toggleModal('transmission')}
                 >
                   Transmission
                 </li>
@@ -269,33 +269,31 @@ const App = () => {
                   setFilteredCars(carData),
                   setFilterModal(false),
                   setFilters({
-                    brand: "",
-                    bodyType: "",
-                    fuelType: "",
-                    transmission: "",
-                    budget: "",
+                    brand: '',
+                    bodyType: '',
+                    fuelType: '',
+                    transmission: '',
+                    budget: '',
                   })
                 )}
               >
                 Clear
               </button>
             </div>
-
+  
             {/* Go to top Button */}
-
             {showGoToTop && (
               <button
                 className="fixed bottom-8 right-8 bg-gray-500 text-white p-4 rounded-full shadow-lg hover:bg-black transition-all z-20"
                 onClick={goUp}
               >
-                {" "}
-                <FaArrowUp />{" "}
+                <FaArrowUp />
               </button>
             )}
-
+  
             {/* Filter Modal */}
             {filterModal && (
-              <div className="absolute left-[250px] min-w-[500px] max-w-[600px] border-4 border-blue-400 bg-blue-200 rounded-2xl overflow-y-auto p-2 shadow-lg z-50" style={{ top: `calc(100vh + 100px)` }}>
+              <div className="absolute left-8 md:left-[250px] min-w-[250px] md:min-w-[500px] max-w-[90%] md:max-w-[600px] border-4 border-blue-400 bg-blue-200 rounded-2xl overflow-y-auto p-2 shadow-lg z-50">
                 <div className="p-2 font-semibold">
                   <div
                     className="absolute top-2 right-4 cursor-pointer font-bold text-xl"
@@ -303,22 +301,22 @@ const App = () => {
                   >
                     X
                   </div>
-                  <h1 className="text-2xl font-bold">
+                  <h1 className="text-xl md:text-2xl font-bold">
                     {selectedFilter.toUpperCase()}
                   </h1>
                   <br />
-
+  
                   {/* Filter Options */}
-                  <ul className="grid grid-cols-4 gap-2">
-                    {(selectedFilter === "budget"
+                  <ul className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                    {(selectedFilter === 'budget'
                       ? budgetRanges
-                      : selectedFilter === "brand"
+                      : selectedFilter === 'brand'
                       ? brands
-                      : selectedFilter === "bodyType"
+                      : selectedFilter === 'bodyType'
                       ? bodyTypes
-                      : selectedFilter === "fuelType"
+                      : selectedFilter === 'fuelType'
                       ? fuelTypes
-                      : selectedFilter === "transmission"
+                      : selectedFilter === 'transmission'
                       ? transmissionTypes
                       : []
                     ).map((option, index) => (
@@ -338,21 +336,21 @@ const App = () => {
               </div>
             )}
           </div>
-
+  
           {/* Right Side */}
-          <div className="w-full min-h-screen flex flex-col items-center bg-gradient-to-r from-purple-500 to-red-500 ">
+          <div className="w-full flex-1 min-h-screen flex flex-col items-center bg-gradient-to-r from-purple-500 to-red-500 p-4">
             {/* Selected Filters */}
-            <div className="flex flex-wrap justify-start w-full p-4 gap-5">
+            <div className="flex flex-wrap justify-start w-full gap-2">
               {Object.entries(filters)
                 .filter(([key, value]) => value)
                 .map(([key, value]) => (
                   <div
                     key={key}
-                    className="flex justify-between items-center bg-violet-500 text-white p-2 my-2 rounded-full w-fit gap-5 font-semibold h-10 border-2 border-gray-300 "
+                    className="flex justify-between items-center bg-violet-500 text-white p-2 my-2 rounded-full w-fit gap-5 font-semibold border-2 border-gray-300"
                   >
                     {key.charAt(0).toUpperCase() + key.slice(1)}: {value}
                     <button
-                      className="ml-2 text-black font-extrabold text-2xl "
+                      className="ml-2 text-black font-extrabold text-2xl"
                       onClick={() => clearFilter(key)}
                     >
                       X
@@ -360,12 +358,12 @@ const App = () => {
                   </div>
                 ))}
             </div>
-
-            <div className="flex flex-wrap gap-6  justify-center">
+  
+            <div className="flex flex-wrap gap-4 justify-center">
               {filteredCarsBySearch.length > 0 ? (
                 filteredCarsBySearch.map((car, index) => (
                   <CarCard
-                    key={car.model + index} // Using car.model as a unique key (you can also use car.make or any other unique identifier)
+                    key={car.model + index}
                     car={car}
                     onCardClick={handleCardClick}
                   />
@@ -373,12 +371,12 @@ const App = () => {
               ) : (
                 <p>No cars match the selected filters.</p>
               )}
-
+  
               {carModal && selectedCar && (
                 <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-60 flex items-center justify-center">
-                  <div className="flex justify-center items-center w-5/6 h-5/6 bg-white rounded-lg">
+                  <div className="flex flex-col md:flex-row justify-center items-center w-full md:w-5/6 h-full md:h-5/6 bg-white rounded-lg">
                     {/* Left side */}
-                    <div className="w-1/2 h-full bg-gray-800 p-5">
+                    <div className="w-full md:w-1/2 h-full bg-gray-800 p-5">
                       {selectedCarImage && (
                         <img
                           src={selectedCarImage}
@@ -386,18 +384,18 @@ const App = () => {
                           className="w-full h-3/4 object-contain"
                         />
                       )}
-                      <div className=" text-white flex justify-between p-5">
-                        <h1 className="text-2xl font-bold mt-2">
-                          {selectedCar.make} <br /> {selectedCar.model}{" "}
+                      <div className="text-white flex justify-between p-5">
+                        <h1 className="text-xl md:text-2xl font-bold mt-2">
+                          {selectedCar.make} <br /> {selectedCar.model}{' '}
                         </h1>
                         <div>
-                          <p className="text-2xl font-bold">
+                          <p className="text-xl md:text-2xl font-bold">
                             Price: {selectedCar.price}
                           </p>
-                          <p className=" flex justify-end">onwards</p>
+                          <p className="flex justify-end">onwards</p>
                         </div>
                       </div>
-
+  
                       {/* Display car variants */}
                       <div>
                         {carVariants.map((variant, index) => (
@@ -408,9 +406,9 @@ const App = () => {
                         ))}
                       </div>
                     </div>
-
+  
                     {/* Right side: Display all variants */}
-                    <div className="w-1/2 h-full bg-gray-800 p-5 overflow-y-auto">
+                    <div className="w-full md:w-1/2 h-full bg-gray-800 p-5 overflow-y-auto">
                       <h2 className="text-xl font-bold text-center mb-4 text-white">
                         Available Variants
                       </h2>
@@ -420,11 +418,11 @@ const App = () => {
                             key={index}
                             className="bg-gray-100 p-3 rounded-lg shadow-lg mb-4 border-2 border-black relative"
                           >
-                            <h3 className="text-2xl font-bold p-2 underline">
+                            <h3 className="text-lg md:text-2xl font-bold p-2 underline">
                               {variant.Variant}
                             </h3>
                             <p className="text-sm font-semibold">
-                              Price: {variant["Ex-Showroom_Price"]}
+                              Price: {variant['Ex-Showroom_Price']}
                             </p>
                             <p className="text-sm font-semibold">
                               Displacement: {variant.Displacement}
@@ -439,7 +437,7 @@ const App = () => {
                               Torque: {variant.Torque}
                             </p>
                             <p className="text-sm font-semibold">
-                              Mileage: {variant.City_Mileage || "N/A"}
+                              Mileage: {variant.City_Mileage || 'N/A'}
                             </p>
                             <div
                               className="absolute top-2 right-2 text-xl opacity-40 cursor-cell"
@@ -456,33 +454,33 @@ const App = () => {
                         </p>
                       )}
                     </div>
-
+  
                     {/* Hover Modal for Variant Details */}
                     {hoveredVariant && (
-                      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-5 rounded-lg shadow-lg border-2 border-black z-50 w-1/3">
+                      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-5 rounded-lg shadow-lg border-2 border-black z-50 w-full md:w-1/3">
                         <h2 className="text-xl font-bold mb-2">Variant Details</h2>
-
+  
                         {/* Loop through all available keys dynamically */}
-                        <div className="overflow-y-auto max-h-fit ">
+                        <div className="overflow-y-auto max-h-fit">
                           {Object.entries(hoveredVariant).map(
                             ([key, value]) => (
                               <p key={key} className="text-sm font-semibold capitalize">
-                                <strong>{key.replace(/_/g, " ")}:</strong>{" "}
-                                {value || "N/A"} 
+                                <strong>{key.replace(/_/g, ' ')}:</strong>{' '}
+                                {value || 'N/A'}
                               </p>
                             )
                           )}
                         </div>
                       </div>
                     )}
-
+  
                     {/* Close button */}
                     <button
                       className="m-2 absolute top-2 right-2 text-white font-bold text-2xl hover:scale-110"
                       onClick={() => {
                         setCarModal(false);
                         setSelectedCar(null);
-                        setSelectedCarImage("");
+                        setSelectedCarImage('');
                         setCarVariants([]); // Clear car variants on close
                       }}
                     >
