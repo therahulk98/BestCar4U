@@ -5795,44 +5795,6 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Porsche",
-    "Model": 718,
-    "Variant": "Boxster",
-    "Ex-Showroom_Price": "Rs. 89,95,000",
-    "Displacement": "1988 cc",
-    "Drivetrain": "RWD (Rear Wheel Drive)",
-    "Emission_Norm": "BS IV",
-    "Fuel_Type": "Petrol",
-    "Height": "1281 mm",
-    "Length": "4379 mm",
-    "Width": "1801 mm",
-    "Body_Type": "Convertible",
-    "City_Mileage": "9 km/litre",
-    "Ground_Clearance": "",
-    "Power": "300PS@6500rpm",
-    "Torque": "380Nm@1950-4500RPM",
-    "Type": "Automatic"
-  },
-  {
-    "Make": "Porsche",
-    "Model": 718,
-    "Variant": "Cayman",
-    "Ex-Showroom_Price": "Rs. 85,95,000",
-    "Displacement": "1988 cc",
-    "Drivetrain": "RWD (Rear Wheel Drive)",
-    "Emission_Norm": "BS IV",
-    "Fuel_Type": "Petrol",
-    "Height": "1281 mm",
-    "Length": "4379 mm",
-    "Width": "1801 mm",
-    "Body_Type": "Coupe",
-    "City_Mileage": "9 km/litre",
-    "Ground_Clearance": "",
-    "Power": "300PS@6500rpm",
-    "Torque": "380Nm@1950-4500RPM",
-    "Type": "Automatic"
-  },
-  {
     "Make": "",
     "Model": "Mercedes-Benz Gls",
     "Variant": "350 Cdi",
@@ -20007,44 +19969,6 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Porsche",
-    "Model": 911,
-    "Variant": "Carrera S",
-    "Ex-Showroom_Price": "Rs. 1,74,20,000",
-    "Displacement": "2981 cc",
-    "Drivetrain": "AWD (All Wheel Drive)",
-    "Emission_Norm": "BS 6",
-    "Fuel_Type": "Petrol",
-    "Height": "1300 mm",
-    "Length": "4519 mm",
-    "Width": "1852 mm",
-    "Body_Type": "Coupe",
-    "City_Mileage": "7.9 km/litre",
-    "Ground_Clearance": "",
-    "Power": "450hp@6500rpm",
-    "Torque": "530Nm@5000rpm",
-    "Type": "Automatic"
-  },
-  {
-    "Make": "Porsche",
-    "Model": 911,
-    "Variant": "Carrera S Cabriolet",
-    "Ex-Showroom_Price": "Rs. 1,88,44,000",
-    "Displacement": "2981 cc",
-    "Drivetrain": "AWD (All Wheel Drive)",
-    "Emission_Norm": "BS 6",
-    "Fuel_Type": "Petrol",
-    "Height": "1299 mm",
-    "Length": "4519 mm",
-    "Width": "1852 mm",
-    "Body_Type": "Convertible",
-    "City_Mileage": "11.6 km/litre",
-    "Ground_Clearance": "",
-    "Power": "450hp@6500rpm",
-    "Torque": "530Nm@5000rpm",
-    "Type": "Automatic"
-  },
-  {
     "Make": "Nissan",
     "Model": "Gtr",
     "Variant": "3.8 V6",
@@ -22287,8 +22211,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "Vxi",
     "Ex-Showroom_Price": "Rs. 4,79,000",
     "Displacement": "998 cc",
@@ -22306,8 +22230,8 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "Vxi Ags",
     "Ex-Showroom_Price": "Rs. 5,26,000",
     "Displacement": "998 cc",
@@ -22325,8 +22249,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "1.2L Zxi",
     "Ex-Showroom_Price": "Rs. 5,48,000",
     "Displacement": "1197 cc",
@@ -22344,8 +22268,8 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "Lxi",
     "Ex-Showroom_Price": "Rs. 4,34,000",
     "Displacement": "998 cc",
@@ -22363,8 +22287,8 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "1.2L Vxi",
     "Ex-Showroom_Price": "Rs. 5,13,501",
     "Displacement": "1197 cc",
@@ -22382,8 +22306,8 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "1.2L Vxi Ags",
     "Ex-Showroom_Price": "Rs. 5,60,500",
     "Displacement": "1197 cc",
@@ -22401,8 +22325,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "1.2L Zxi Ags",
     "Ex-Showroom_Price": "Rs. 5,94,800",
     "Displacement": "1197 cc",
@@ -22420,8 +22344,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "Lxi (O)",
     "Ex-Showroom_Price": "Rs. 4,41,000",
     "Displacement": "998 cc",
@@ -22439,8 +22363,8 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "Vxi (O)",
     "Ex-Showroom_Price": "Rs. 4,86,001",
     "Displacement": "998 cc",
@@ -22458,8 +22382,8 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "1.2L Vxi (O)",
     "Ex-Showroom_Price": "Rs. 5,20,500",
     "Displacement": "1197 cc",
@@ -22477,8 +22401,8 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "1.2L Vxi Ags (O)",
     "Ex-Showroom_Price": "Rs. 5,67,500",
     "Displacement": "1197 cc",
@@ -22496,8 +22420,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "Vxi Ags (O)",
     "Ex-Showroom_Price": "Rs. 5,33,000",
     "Displacement": "998 cc",
@@ -22515,8 +22439,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "Lxi Cng",
     "Ex-Showroom_Price": "Rs. 5,00,500",
     "Displacement": "998 cc",
@@ -22534,8 +22458,8 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "Maruti Suzuki R",
-    "Model": "Wagon",
+    "Make": "Maruti Suzuki",
+    "Model": "Wagon R",
     "Variant": "Lxi (O) Cng",
     "Ex-Showroom_Price": "Rs. 5,07,500",
     "Displacement": "998 cc",
