@@ -293,7 +293,7 @@ const App = () => {
   
             {/* Filter Modal */}
             {filterModal && (
-              <div className="absolute left-8 md:left-[250px] min-w-[250px] md:min-w-[500px] max-w-[90%] md:max-w-[600px] border-4 border-blue-400 bg-blue-200 rounded-2xl overflow-y-auto p-2 shadow-lg z-50">
+              <div className="absolute left-8 md:top-[calc(100vh+150px)] md:left-[250px] min-w-[250px] md:min-w-[500px] max-w-[90%] md:max-w-[600px] border-4 border-blue-400 bg-blue-200 rounded-2xl overflow-y-auto p-2 shadow-lg z-50">
                 <div className="p-2 font-semibold">
                   <div
                     className="absolute top-2 right-4 cursor-pointer font-bold text-xl"
