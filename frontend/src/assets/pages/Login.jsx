@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const Login = ({ setIsLoggedIn }) => {
+const Login = ({ setIsLoggedIn,API_BASE_URL }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -16,7 +16,7 @@ const handleLogin = async (e) => {
 
     try {
         console.log("📤 Sending login request...");
-        const response = await axios.post("http://localhost:5000/api/auth/login", {
+        const response = await axios.post(`${API_BASE_URL}/api/auth/login`, {
             email,
             password,
         });
