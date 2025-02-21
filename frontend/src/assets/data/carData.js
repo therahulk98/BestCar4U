@@ -4788,8 +4788,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz B-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "B-Class",
     "Variant": "B 180 Sport",
     "Ex-Showroom_Price": "Rs. 29,88,311",
     "Displacement": "1595 cc",
@@ -4807,8 +4807,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz B-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "B-Class",
     "Variant": "B 200 Cdi Sport",
     "Ex-Showroom_Price": "Rs. 30,89,851",
     "Displacement": "2143 cc",
@@ -4826,8 +4826,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz B-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "B-Class",
     "Variant": "B 180 Night Edition",
     "Ex-Showroom_Price": "Rs. 31,98,662",
     "Displacement": "1595 cc",
@@ -4845,8 +4845,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz B-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "B-Class",
     "Variant": "B 200 Cdi Night Edition",
     "Ex-Showroom_Price": "Rs. 33,03,282",
     "Displacement": "2143 cc",
@@ -4864,8 +4864,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Cla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Cla-Class",
     "Variant": "200 Sport",
     "Ex-Showroom_Price": "Rs. 35,99,000",
     "Displacement": "1991 cc",
@@ -4883,8 +4883,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Cla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Cla-Class",
     "Variant": "200 Cdi Style",
     "Ex-Showroom_Price": "Rs. 31,72,000",
     "Displacement": "2143 cc",
@@ -4902,8 +4902,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Cla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Cla-Class",
     "Variant": "200 D Sport",
     "Ex-Showroom_Price": "Rs. 36,99,000",
     "Displacement": "2143 cc",
@@ -5757,8 +5757,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class Cabriolet",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class Cabriolet",
     "Variant": "E400",
     "Ex-Showroom_Price": "Rs. 77,11,338",
     "Displacement": "2996 cc",
@@ -5795,8 +5795,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gls",
+    "Make": "Mercedes-Benz",
+    "Model": "Gls",
     "Variant": "350 Cdi",
     "Ex-Showroom_Price": "Rs. 88,20,000",
     "Displacement": "2987 cc",
@@ -5814,8 +5814,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gls",
+    "Make": "Mercedes-Benz",
+    "Model": "Gls",
     "Variant": "63 Amg",
     "Ex-Showroom_Price": "Rs. 1,91,99,181",
     "Displacement": "5461 cc",
@@ -5833,8 +5833,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gls",
+    "Make": "Mercedes-Benz",
+    "Model": "Gls",
     "Variant": "400 4Matic",
     "Ex-Showroom_Price": "Rs. 87,76,900",
     "Displacement": "2996 cc",
@@ -5852,8 +5852,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gls",
+    "Make": "Mercedes-Benz",
+    "Model": "Gls",
     "Variant": "Grand Edition Petrol",
     "Ex-Showroom_Price": "Rs. 86,90,000",
     "Displacement": "2996 cc",
@@ -5871,8 +5871,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gls",
+    "Make": "Mercedes-Benz",
+    "Model": "Gls",
     "Variant": "Grand Edition Diesel",
     "Ex-Showroom_Price": "Rs. 86,90,000",
     "Displacement": "2987 cc",
@@ -6080,8 +6080,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz S-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "S-Class",
     "Variant": "S 350 D",
     "Ex-Showroom_Price": "Rs. 1,35,58,438",
     "Displacement": "2987 cc",
@@ -6099,8 +6099,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz S-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "S-Class",
     "Variant": "S 450",
     "Ex-Showroom_Price": "Rs. 1,39,76,653",
     "Displacement": "2996 cc",
@@ -6118,8 +6118,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz S-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "S-Class",
     "Variant": "Amg S 63 Coupe",
     "Ex-Showroom_Price": "Rs. 2,55,00,000",
     "Displacement": "3982 cc",
@@ -6194,8 +6194,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz G-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "G-Class",
     "Variant": "Amg G 63",
     "Ex-Showroom_Price": "Rs. 2,18,75,136",
     "Displacement": "3982 cc",
@@ -6213,8 +6213,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz G-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "G-Class",
     "Variant": "G 350D",
     "Ex-Showroom_Price": "Rs. 1,50,00,000",
     "Displacement": "2925 cc",
@@ -6308,8 +6308,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Maybach",
+    "Make": "Mercedes-Benz",
+    "Model": "Maybach",
     "Variant": "S650",
     "Ex-Showroom_Price": "Rs. 2,73,08,312",
     "Displacement": "5980 cc",
@@ -6327,8 +6327,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Maybach",
+    "Make": "Mercedes-Benz",
+    "Model": "Maybach",
     "Variant": "S560",
     "Ex-Showroom_Price": "Rs. 1,98,90,000",
     "Displacement": "4663 cc",
@@ -6422,8 +6422,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz S-Class Cabriolet",
+    "Make": "Mercedes-Benz",
+    "Model": "S-Class Cabriolet",
     "Variant": "S500",
     "Ex-Showroom_Price": "Rs. 2,34,91,293",
     "Displacement": "4663 cc",
@@ -6593,8 +6593,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Ghost Series Ii",
+    "Make": "Rolls-Royce",
+    "Model": "Ghost Series Ii",
     "Variant": 6.6,
     "Ex-Showroom_Price": "Rs. 4,67,09,733",
     "Displacement": "6593 cc",
@@ -6612,8 +6612,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Ghost Series Ii",
+    "Make": "Rolls-Royce",
+    "Model": "Ghost Series Ii",
     "Variant": "Ewb",
     "Ex-Showroom_Price": "Rs. 5,32,47,201",
     "Displacement": "6592 cc",
@@ -6631,8 +6631,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Wraith",
+    "Make": "Rolls-Royce",
+    "Model": "Wraith",
     "Variant": "Coupe",
     "Ex-Showroom_Price": "Rs. 5,00,25,840",
     "Displacement": "6592 cc",
@@ -6669,8 +6669,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Cullinan",
+    "Make": "Rolls-Royce",
+    "Model": "Cullinan",
     "Variant": "Suv",
     "Ex-Showroom_Price": "Rs. 6,95,00,000",
     "Displacement": "6750 cc",
@@ -6688,8 +6688,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Phantom Coupe",
+    "Make": "Rolls-Royce",
+    "Model": "Phantom Coupe",
     "Variant": "6.8 L",
     "Ex-Showroom_Price": "Rs. 7,73,12,661",
     "Displacement": "6749 cc",
@@ -14953,7 +14953,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Evoque",
     "Variant": "S",
     "Ex-Showroom_Price": "Rs. 54,94,000",
@@ -14972,7 +14972,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Evoque",
     "Variant": "Se R-Dynamic",
     "Ex-Showroom_Price": "Rs. 59,85,000",
@@ -14991,7 +14991,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Evoque",
     "Variant": "S Petrol",
     "Ex-Showroom_Price": "Rs. 54,94,000",
@@ -15010,7 +15010,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Evoque",
     "Variant": "Se R-Dynamic Petrol",
     "Ex-Showroom_Price": "Rs. 59,85,000",
@@ -15029,8 +15029,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class",
     "Variant": "E200",
     "Ex-Showroom_Price": "Rs. 58,61,062",
     "Displacement": "1991 cc",
@@ -15048,8 +15048,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class",
     "Variant": "E350 D",
     "Ex-Showroom_Price": "Rs. 72,85,332",
     "Displacement": "2987 cc",
@@ -15067,8 +15067,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class",
     "Variant": "E220D",
     "Ex-Showroom_Price": "Rs. 59,64,321",
     "Displacement": "2987 cc",
@@ -15086,8 +15086,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class",
     "Variant": "E 63 S Amg",
     "Ex-Showroom_Price": "Rs. 1,50,00,000",
     "Displacement": "5461 cc",
@@ -15105,8 +15105,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class",
     "Variant": "E200 Expression",
     "Ex-Showroom_Price": "Rs. 57,50,000",
     "Displacement": "1991 cc",
@@ -15124,8 +15124,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class",
     "Variant": "E200 Exclusive",
     "Ex-Showroom_Price": "Rs. 61,50,000",
     "Displacement": "1991 cc",
@@ -15143,8 +15143,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class",
     "Variant": "E220D Expression",
     "Ex-Showroom_Price": "Rs. 58,50,000",
     "Displacement": "2987 cc",
@@ -15162,8 +15162,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class",
     "Variant": "E220D Exclusive",
     "Ex-Showroom_Price": "Rs. 62,50,000",
     "Displacement": "2987 cc",
@@ -15276,8 +15276,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz C-Class Cabriolet",
+    "Make": "Mercedes-Benz",
+    "Model": "C-Class Cabriolet",
     "Variant": "C300",
     "Ex-Showroom_Price": "Rs. 64,26,497",
     "Displacement": "1991 cc",
@@ -15333,8 +15333,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz V-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "V-Class",
     "Variant": "Expression Elwb",
     "Ex-Showroom_Price": "Rs. 68,40,000",
     "Displacement": "2143 cc",
@@ -15352,8 +15352,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz V-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "V-Class",
     "Variant": "Exclusive Lwb",
     "Ex-Showroom_Price": "Rs. 81,90,000",
     "Displacement": "2143 cc",
@@ -15371,8 +15371,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz V-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "V-Class",
     "Variant": "Elite",
     "Ex-Showroom_Price": "Rs. 1,10,00,000",
     "Displacement": "1950 cc",
@@ -15504,7 +15504,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Evoque Convertible",
     "Variant": "2.0 Hse Dynamic",
     "Ex-Showroom_Price": "Rs. 69,52,964",
@@ -15523,7 +15523,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Velar",
     "Variant": "2.0 Diesel R-Dynamic S",
     "Ex-Showroom_Price": "Rs. 72,46,802",
@@ -15542,7 +15542,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Velar",
     "Variant": "2.0 Petrol R-Dynamic S",
     "Ex-Showroom_Price": "Rs. 72,46,802",
@@ -15561,8 +15561,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz E-Class All Terrain",
+    "Make": "Mercedes-Benz",
+    "Model": "E-Class All Terrain",
     "Variant": "E 220D",
     "Ex-Showroom_Price": "Rs. 75,00,000",
     "Displacement": "1950 cc",
@@ -15675,7 +15675,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "5.0L V8 Svr Petrol",
     "Ex-Showroom_Price": "Rs. 2,05,17,853",
@@ -15694,7 +15694,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "2.0L S Petrol",
     "Ex-Showroom_Price": "Rs. 86,70,586",
@@ -15713,7 +15713,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "2.0L Se Petrol",
     "Ex-Showroom_Price": "Rs. 94,48,181",
@@ -15732,7 +15732,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "3.0L V6 Se Petrol",
     "Ex-Showroom_Price": "Rs. 1,14,76,911",
@@ -15751,7 +15751,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "2.0L Hse Petrol",
     "Ex-Showroom_Price": "Rs. 1,56,00,000",
@@ -15770,7 +15770,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "3.0L V6 Hse Petrol",
     "Ex-Showroom_Price": "Rs. 1,32,28,725",
@@ -15789,7 +15789,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "5.0L V8 Autobiography Dynamic Petrol",
     "Ex-Showroom_Price": "Rs. 1,79,40,227",
@@ -15808,7 +15808,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "3.0L Tdv6 S Diesel",
     "Ex-Showroom_Price": "Rs. 1,03,73,732",
@@ -15827,7 +15827,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "3.0L Tdv6 Se Diesel",
     "Ex-Showroom_Price": "Rs. 1,19,13,021",
@@ -15846,7 +15846,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range Sport",
     "Variant": "4.4L Sdv8 Hse Diesel",
     "Ex-Showroom_Price": "Rs. 1,49,08,985",
@@ -16074,7 +16074,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "5.0L V8 Autobiography Petrol",
     "Ex-Showroom_Price": "Rs. 2,60,37,526",
@@ -16093,7 +16093,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "5.0L V8 Svautobiography Dynamic Petrol",
     "Ex-Showroom_Price": "Rs. 3,25,22,000",
@@ -16112,7 +16112,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "3.0L V6 Vogue Lwb Petrol",
     "Ex-Showroom_Price": "Rs. 1,95,27,130",
@@ -16131,7 +16131,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "5.0L V8 Svautobiography Lwb Petrol",
     "Ex-Showroom_Price": "Rs. 4,04,99,548",
@@ -16150,7 +16150,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "3.0L Tdv6 Vogue Diesel",
     "Ex-Showroom_Price": "Rs. 1,81,85,267",
@@ -16169,7 +16169,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "3.0L Tdv6 Vogue Lwb Diesel",
     "Ex-Showroom_Price": "Rs. 1,95,27,130",
@@ -16188,7 +16188,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "4.4L Sdv8 Autobiography Lwb Diesel",
     "Ex-Showroom_Price": "Rs. 2,51,74,051",
@@ -16207,7 +16207,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "4.4L Sdv8 Svautobiography Lwb Diesel",
     "Ex-Showroom_Price": "Rs. 3,92,94,685",
@@ -16226,7 +16226,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "4.4L Sdv8 Vogue Se Lwb Diesel",
     "Ex-Showroom_Price": "Rs. 2,36,75,691",
@@ -16245,7 +16245,7 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "Land Rover Rover",
+    "Make": "Land Rover",
     "Model": "Range",
     "Variant": "3.0L V6 Vogue Se Lwb Petrol",
     "Ex-Showroom_Price": "Rs. 2,13,98,758",
@@ -16283,8 +16283,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Amg-Gt",
+    "Make": "Mercedes-Benz",
+    "Model": "Amg-Gt",
     "Variant": "S",
     "Ex-Showroom_Price": "Rs. 2,15,83,466",
     "Displacement": "3982 cc",
@@ -16302,8 +16302,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Amg-Gt",
+    "Make": "Mercedes-Benz",
+    "Model": "Amg-Gt",
     "Variant": "R",
     "Ex-Showroom_Price": "Rs. 2,32,64,134",
     "Displacement": "3982 cc",
@@ -16321,8 +16321,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Amg-Gt",
+    "Make": "Mercedes-Benz",
+    "Model": "Amg-Gt",
     "Variant": "Roadster",
     "Ex-Showroom_Price": "Rs. 2,27,33,626",
     "Displacement": "3982 cc",
@@ -16340,8 +16340,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Amg Gt 4-Door Coupe",
+    "Make": "Mercedes-Benz",
+    "Model": "Amg Gt 4-Door Coupe",
     "Variant": "63 S 4Matic+",
     "Ex-Showroom_Price": "Rs. 2,42,00,000",
     "Displacement": "",
@@ -16663,8 +16663,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Dawn",
+    "Make": "Rolls-Royce",
+    "Model": "Dawn",
     "Variant": "Convertible",
     "Ex-Showroom_Price": "Rs. 5,92,16,193",
     "Displacement": "6598 cc",
@@ -16682,8 +16682,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Drophead Coupe",
+    "Make": "Rolls-Royce",
+    "Model": "Drophead Coupe",
     "Variant": "Phantom",
     "Ex-Showroom_Price": "Rs. 8,37,55,383",
     "Displacement": "6749 cc",
@@ -16739,7 +16739,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun D",
     "Ex-Showroom_Price": "Rs. 4,12,292",
@@ -16758,7 +16758,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun T",
     "Ex-Showroom_Price": "Rs. 5,52,656",
@@ -16777,7 +16777,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun T (O)",
     "Ex-Showroom_Price": "Rs. 5,74,448",
@@ -16796,7 +16796,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun A (O)",
     "Ex-Showroom_Price": "Rs. 5,55,196",
@@ -16815,7 +16815,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun A",
     "Ex-Showroom_Price": "Rs. 5,00,575",
@@ -16834,7 +16834,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun T Vdc",
     "Ex-Showroom_Price": "Rs. 5,93,361",
@@ -16853,7 +16853,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun T (O) Vdc",
     "Ex-Showroom_Price": "Rs. 6,15,153",
@@ -16872,7 +16872,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun T Cvt",
     "Ex-Showroom_Price": "Rs. 6,58,361",
@@ -16891,7 +16891,7 @@ const carData =[
     "Type": "Manual"
   },
   {
-    "Make": "",
+    "Make": "Datsun",
     "Model": "Go+",
     "Variant": "Datsun T (O) Cvt",
     "Ex-Showroom_Price": "Rs. 6,80,153",
@@ -19437,8 +19437,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz A-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "A-Class",
     "Variant": 180,
     "Ex-Showroom_Price": "Rs. 27,85,288",
     "Displacement": "1595 cc",
@@ -19456,8 +19456,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz A-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "A-Class",
     "Variant": "200D",
     "Ex-Showroom_Price": "Rs. 28,86,871",
     "Displacement": "2143 cc",
@@ -19589,8 +19589,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz C-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "C-Class",
     "Variant": "C 220D Prime",
     "Ex-Showroom_Price": "Rs. 40,20,000",
     "Displacement": "1950 cc",
@@ -19608,8 +19608,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz C-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "C-Class",
     "Variant": "C 220D Progressive",
     "Ex-Showroom_Price": "Rs. 46,70,000",
     "Displacement": "1950 cc",
@@ -19627,8 +19627,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz C-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "C-Class",
     "Variant": "C 300D Amg Line",
     "Ex-Showroom_Price": "Rs. 49,74,750",
     "Displacement": "1950 cc",
@@ -19646,8 +19646,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz C-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "C-Class",
     "Variant": "C 43 Amg",
     "Ex-Showroom_Price": "Rs. 75,00,000",
     "Displacement": "3982 cc",
@@ -19665,8 +19665,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz C-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "C-Class",
     "Variant": "C 200 Prime",
     "Ex-Showroom_Price": "Rs. 40,90,000",
     "Displacement": "1497 cc",
@@ -19684,8 +19684,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz C-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "C-Class",
     "Variant": "C 200 Progressive",
     "Ex-Showroom_Price": "Rs. 46,54,000",
     "Displacement": "1497 cc",
@@ -19855,8 +19855,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gle",
+    "Make": "Mercedes-Benz",
+    "Model": "Gle",
     "Variant": "300D 4Matic",
     "Ex-Showroom_Price": "Rs. 73,70,000",
     "Displacement": "1950 cc",
@@ -19874,8 +19874,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gle",
+    "Make": "Mercedes-Benz",
+    "Model": "Gle",
     "Variant": "400D 4Matic Hip Hop Edition",
     "Ex-Showroom_Price": "Rs. 1,25,00,000",
     "Displacement": "2925 cc",
@@ -19893,8 +19893,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Cls",
+    "Make": "Mercedes-Benz",
+    "Model": "Cls",
     "Variant": "300D",
     "Ex-Showroom_Price": "Rs. 84,70,000",
     "Displacement": "1950 cc",
@@ -21698,8 +21698,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Gla-Class",
     "Variant": "200 Sport",
     "Ex-Showroom_Price": "Rs. 34,38,000",
     "Displacement": "1991 cc",
@@ -21717,8 +21717,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Gla-Class",
     "Variant": "200 D Style",
     "Ex-Showroom_Price": "Rs. 32,33,000",
     "Displacement": "2143 cc",
@@ -21736,8 +21736,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Gla-Class",
     "Variant": "200 D Sport",
     "Ex-Showroom_Price": "Rs. 35,64,000",
     "Displacement": "2143 cc",
@@ -21755,8 +21755,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Gla-Class",
     "Variant": "45 Amg 4Matic",
     "Ex-Showroom_Price": "Rs. 77,84,944",
     "Displacement": "1991 cc",
@@ -21774,8 +21774,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Gla-Class",
     "Variant": "220 D 4Matic",
     "Ex-Showroom_Price": "Rs. 38,64,000",
     "Displacement": "2143 cc",
@@ -21793,8 +21793,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Gla-Class",
+    "Make": "Mercedes-Benz",
+    "Model": "Gla-Class",
     "Variant": "45 Aero Edition",
     "Ex-Showroom_Price": "Rs. 80,67,000",
     "Displacement": "1991 cc",
@@ -23085,8 +23085,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Phantom",
+    "Make": "Rolls-Royce",
+    "Model": "Phantom",
     "Variant": "Sedan",
     "Ex-Showroom_Price": "Rs. 9,50,00,000",
     "Displacement": "6749 cc",
@@ -23104,8 +23104,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Rolls-Royce Phantom",
+    "Make": "Rolls-Royce",
+    "Model": "Phantom",
     "Variant": "Ewb",
     "Ex-Showroom_Price": "Rs. 7,54,00,000",
     "Displacement": "6749 cc",
@@ -23693,8 +23693,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Glc",
+    "Make": "Mercedes-Benz",
+    "Model": "Glc",
     "Variant": "200 Progressive",
     "Ex-Showroom_Price": "Rs. 52,75,000",
     "Displacement": "1991 cc",
@@ -23712,8 +23712,8 @@ const carData =[
     "Type": "Automatic"
   },
   {
-    "Make": "",
-    "Model": "Mercedes-Benz Glc",
+    "Make": "Mercedes-Benz",
+    "Model": "Glc",
     "Variant": "220D 4Matic Progressive",
     "Ex-Showroom_Price": "Rs. 57,75,000",
     "Displacement": "1950 cc",

@@ -23,6 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
-node_modules
-.env
-build
+node_modules 
+.env  
+.vscode/  
+.DS_Store  
+package-lock.json  
+yarn.lock  
+build/  
+dist/  
