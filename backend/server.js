@@ -10,8 +10,11 @@ connectDB();
 
 const app = express();
 app.use(express.json());
+
+// ✅ Fix CORS to allow frontend requests
 app.use(cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: [process.env.FRONTEND_URL, "http://localhost:5173"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
 
@@ -21,6 +24,6 @@ app.use("/api/favorites", favoriteRouter);
 
 app.get("/", (req, res) => res.send("Backend is working!!"));
 
-// Start Server
+// ✅ Start Server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
