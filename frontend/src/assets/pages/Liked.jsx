@@ -2,6 +2,9 @@ import React from "react";
 import CarCard from "../components/CarCard";
 
 const Liked = ({ user, favoriteCars, loadingFavorites, API_BASE_URL }) => {
+
+  console.log("API_BASE_URL from Liked:", API_BASE_URL);
+  
   return (
     <div
       key={user?.id}

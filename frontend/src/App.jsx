@@ -24,6 +24,8 @@ const App = () => {
 
   const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_URL;
 
+  console.log("API_BASE_URL from App:", API_BASE_URL);
+
 
   // Fetch user details when logged in
   const fetchUser = async () => {
