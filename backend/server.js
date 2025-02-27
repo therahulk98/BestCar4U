@@ -14,7 +14,7 @@ app.use(express.json());
 
 const allowedOrigins = [
     "https://best-car4u-frontend.vercel.app",
-    "http://localhost:5173"
+    
 ];
 
 app.use(cors({
