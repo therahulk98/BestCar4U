@@ -22,7 +22,7 @@ const App = () => {
   const [loadingFavorites, setLoadingFavorites] = useState(true);
 
 
-  const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_URL || "http://localhost:5000";
+  const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_URL;
 
 
   // Fetch user details when logged in
