@@ -13,7 +13,8 @@ app.use(express.json());
 
 
 const allowedOrigins = [
-    "https://best-car4u-frontend.vercel.app"
+    "https://best-car4u-frontend.vercel.app",
+    "http://localhost:5173"
 ];
 
 app.use(cors({
@@ -24,8 +25,9 @@ app.use(cors({
             callback(new Error("Not allowed by CORS"));
         }
     },
-    credentials: true // Enable credentials (if using cookies or authorization headers)
+    credentials: true
 }));
+
 
 // ✅ Use Routes
 app.use("/api/auth", authRouter);
