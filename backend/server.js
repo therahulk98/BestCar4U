@@ -13,7 +13,7 @@ app.use(express.json());
 
 
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: "https://best-car4u-frontend.vercel.app" //http://localhost:5173
 }));
 
 // ✅ Use Routes
