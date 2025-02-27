@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const Signup = ({ setIsLoggedIn }) => {
+const Signup = ({ setIsLoggedIn, API_BASE_URL }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -29,7 +29,7 @@ const Signup = ({ setIsLoggedIn }) => {
 
     try {
         const response = await axios.post(
-            "http://localhost:5000/api/auth/signup",
+            `${API_BASE_URL}/api/auth/signup`,
             { name, email, password },
             { headers: { "Content-Type": "application/json" } }
         );

@@ -3,7 +3,7 @@ import { CiHeart } from "react-icons/ci";
 import { AiFillHeart } from "react-icons/ai";
 import axios from "axios";
 
-const CarCard = ({ car, onCardClick, user, favoriteCars }) => {
+const CarCard = ({ car, onCardClick, user, favoriteCars, API_BASE_URL }) => {
   const [carImage, setCarImage] = useState(null);
   const [isFavorite, setIsFavorite] = useState(false);
 
@@ -57,14 +57,14 @@ const CarCard = ({ car, onCardClick, user, favoriteCars }) => {
 
       if (isFavorite) {
         // Remove from favorites
-        await axios.delete("http://localhost:5000/api/favorites/remove", {
+        await axios.delete(`${API_BASE_URL}/api/favorites/remove`, {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
           data: { model: car.model }
         });
         setIsFavorite(false);
       } else {
         // Add to favorites
-        await axios.post("http://localhost:5000/api/favorites/add", { 
+        await axios.post(`${API_BASE_URL}:5000/api/favorites/add`, { 
           car: { make: car.make, model: car.model, price: car.price }
         }, {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }

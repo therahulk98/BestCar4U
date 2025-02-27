@@ -21,6 +21,10 @@ const App = () => {
   const [favoriteCars, setFavoriteCars] = useState([]);
   const [loadingFavorites, setLoadingFavorites] = useState(true);
 
+
+  const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_URL || "http://localhost:5000";
+
+
   // Fetch user details when logged in
   const fetchUser = async () => {
     try {
@@ -31,7 +35,7 @@ const App = () => {
             return;
         }
 
-        const response = await axios.get("http://localhost:5000/api/auth/me", {
+        const response = await axios.get(`${API_BASE_URL}/api/auth/me`, {
             headers: { Authorization: `Bearer ${token}` }
         });
 
@@ -53,7 +57,7 @@ const App = () => {
     if (!user) return;
     setLoadingFavorites(true);
     try {
-      const response = await axios.get("http://localhost:5000/api/favorites", {
+      const response = await axios.get(`${API_BASE_URL}/api/favorites`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
       });
       setFavoriteCars(response.data);
@@ -129,10 +133,10 @@ const App = () => {
   return (
     <Router>
       {!hideNavBar && (
-        <NavBar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} user={user} />
+        <NavBar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} user={user} API_BASE_URL={API_BASE_URL} />
       )}
       <Routes>
-        <Route path="/" element={<Home setHideNavBar={setHideNavBar} user={user} favoriteCars={favoriteCars} />} />
+        <Route path="/" element={<Home setHideNavBar={setHideNavBar} user={user} favoriteCars={favoriteCars} API_BASE_URL={API_BASE_URL} />} />
         <Route path="/about" element={<About />} />
 
         {/* 🔒 Protected Routes */}
@@ -140,7 +144,7 @@ const App = () => {
           path="/profile"
           element={
             <ProtectedRoute isLoggedIn={isLoggedIn}>
-              <Profile user={user} />
+              <Profile user={user} API_BASE_URL={API_BASE_URL} />
             </ProtectedRoute>
           }
         />
@@ -152,14 +156,15 @@ const App = () => {
                 user={user}
                 favoriteCars={favoriteCars}
                 loadingFavorites={loadingFavorites}
+                API_BASE_URL={API_BASE_URL}
               />
             </ProtectedRoute>
           }
         />
 
         {/* Public Routes */}
-        <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
-        <Route path="/signup" element={<Signup setIsLoggedIn={setIsLoggedIn} />} />
+        <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} API_BASE_URL={API_BASE_URL} />} />
+        <Route path="/signup" element={<Signup setIsLoggedIn={setIsLoggedIn} API_BASE_URL={API_BASE_URL} />} />
       </Routes>
     </Router>
   );
