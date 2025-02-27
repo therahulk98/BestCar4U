@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {jwtDecode} from "jwt-decode";
+import { FaUser } from "react-icons/fa";
 
 const NavBar = ({ isLoggedIn, setIsLoggedIn, user }) => {
   const navigate = useNavigate();
@@ -51,7 +52,8 @@ const NavBar = ({ isLoggedIn, setIsLoggedIn, user }) => {
       {/* Right Section: Login/Logout Button */}
       {isLoggedIn ? (
         <div className="flex items-center gap-4">
-          <span className="text-white font-semibold">👤Hi, {user?.name}</span>
+          <FaUser/>
+          <span className="text-white font-semibold">Hi, {user?.name}</span>
           <button className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition duration-200"
             onClick={handleLogout}>
             Logout

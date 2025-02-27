@@ -1,36 +1,31 @@
 import React, { useState, useEffect } from "react";
 import { CiHeart } from "react-icons/ci";
 import { AiFillHeart } from "react-icons/ai";
+import { ImBin2 } from "react-icons/im";
 import axios from "axios";
 
-const CarCard = ({ car, onCardClick, user, favoriteCars, API_BASE_URL }) => {
+const CarCard = ({ car, onCardClick, user, favoriteCars, API_BASE_URL, isLikedPage }) => {
   const [carImage, setCarImage] = useState(null);
   const [isFavorite, setIsFavorite] = useState(false);
 
-  const API_KEY = import.meta.env.VITE_REACT_APP_API_KEY;
-  const SEARCH_ENGINE_ID = import.meta.env.VITE_REACT_APP_SEARCH_ENGINE_ID;
-
-  // ✅ Check if the car is in favoriteCars
   useEffect(() => {
     if (favoriteCars && user) {
       setIsFavorite(favoriteCars.some(fav => fav.model === car.model));
     }
   }, [favoriteCars, user, car.model]);
 
-  // ✅ Fetch car image from Google API
   const handleCarClick = async () => {
     if (!carImage) {
       const query = `${car.make} ${car.model} car`;
-      const searchURL = `https://www.googleapis.com/customsearch/v1?q=${query}&cx=${SEARCH_ENGINE_ID}&key=${API_KEY}&searchType=image`;
+      const searchURL = `https://www.googleapis.com/customsearch/v1?q=${query}&cx=${import.meta.env.VITE_REACT_APP_SEARCH_ENGINE_ID}&key=${import.meta.env.VITE_REACT_APP_API_KEY}&searchType=image`;
 
       try {
         const response = await fetch(searchURL);
         const data = await response.json();
 
         if (data.items && data.items.length > 0) {
-          const imageUrl = data.items[0].link;
-          setCarImage(imageUrl);
-          onCardClick(car, imageUrl);
+          setCarImage(data.items[0].link);
+          onCardClick(car, data.items[0].link);
         } else {
           onCardClick(car, "default-image-url");
         }
@@ -43,36 +38,42 @@ const CarCard = ({ car, onCardClick, user, favoriteCars, API_BASE_URL }) => {
     }
   };
 
-  // ✅ Toggle favorite (Add/Remove from Database)
-  const toggleFavorite = async (e) => {
-    e.stopPropagation(); // Prevent triggering `handleCarClick`
-
+  const addToFavorites = async (e) => {
+    e.stopPropagation();
     if (!user) {
       alert("You need to log in to favorite a car!");
       return;
     }
 
     try {
-      const requestData = { car: { make: car.make, model: car.model, price: car.price } };
+      await axios.post(`${API_BASE_URL}/api/favorites/add`, {
+        car: { make: car.make, model: car.model, price: car.price },
+      }, {
+        headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
+      });
 
-      if (isFavorite) {
-        // Remove from favorites
-        await axios.delete(`${API_BASE_URL}/api/favorites/remove`, {
-          headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
-          data: { model: car.model }
-        });
-        setIsFavorite(false);
-      } else {
-        // Add to favorites
-        await axios.post(`${API_BASE_URL}:5000/api/favorites/add`, { 
-          car: { make: car.make, model: car.model, price: car.price }
-        }, {
-          headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
-        });
-        setIsFavorite(true);
-      }
+      setIsFavorite(true);
     } catch (error) {
-      console.error("Error updating favorite:", error);
+      console.error("Error adding to favorites:", error);
+    }
+  };
+
+  const removeFromFavorites = async (e) => {
+    e.stopPropagation();
+    if (!user) {
+      alert("You need to log in to remove a favorite!");
+      return;
+    }
+
+    try {
+      await axios.delete(`${API_BASE_URL}/api/favorites/remove`, {
+        headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+        data: { model: car.model },
+      });
+
+      setIsFavorite(false);
+    } catch (error) {
+      console.error("Error removing from favorites:", error);
     }
   };
 
@@ -92,16 +93,27 @@ const CarCard = ({ car, onCardClick, user, favoriteCars, API_BASE_URL }) => {
         </div>
       </div>
 
-      {/* ✅ Favorite Heart Icon */}
-      <div className="absolute top-0 right-0 text-xl cursor-pointer">
+      {/* Heart Icon (Favorite) */}
+      <div className="absolute top-1 right-0 text-xl cursor-pointer">
         {isFavorite ? (
-          <AiFillHeart className="text-red-500 hover:scale-125 transition"
-            onClick={toggleFavorite} />
+          <AiFillHeart className="text-red-500 hover:scale-125 transition" />
         ) : (
-          <CiHeart className="text-white hover:scale-125 transition"
-            onClick={toggleFavorite} />
+          <CiHeart
+            className="text-white hover:scale-125 transition"
+            onClick={addToFavorites}
+          />
         )}
       </div>
+
+      {/* Delete Icon (Only on Liked Page) */}
+      {isLikedPage && (
+        <div className="absolute top-16 right-0 text-md cursor-pointer">
+          <ImBin2
+            className="text-red-600 hover:scale-150 transition"
+            onClick={removeFromFavorites}
+          />
+        </div>
+      )}
     </div>
   );
 };

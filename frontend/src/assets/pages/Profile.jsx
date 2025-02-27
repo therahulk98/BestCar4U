@@ -12,7 +12,7 @@ const Profile = ({ user }) => {
         {/* Display User Info */}
         <div className="bg-white p-6 rounded-xl shadow-lg text-center w-80">
           <img
-            src="https://ui-avatars.com/api/?name=John+Doe&background=random"
+            src={`https://ui-avatars.com/api/?name=${user?.name}`}
             alt="Profile Avatar"
             className="w-24 h-24 rounded-full mx-auto mb-4"
           />

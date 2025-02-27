@@ -45,7 +45,7 @@ const getUniqueCars = (carData) => {
   return Object.values(carMap);
 };
 
-const Home = ({setHideNavBar, user, favoriteCars}) => {
+const Home = ({setHideNavBar, user, favoriteCars, API_BASE_URL}) => {
   const [selectedFilter, setSelectedFilter] = useState("");
   const [filterModal, setFilterModal] = useState(false);
   const [carModal, setCarModal] = useState(false);
@@ -378,6 +378,7 @@ const Home = ({setHideNavBar, user, favoriteCars}) => {
                     onCardClick={handleCardClick}
                     user={user}
                     favoriteCars={favoriteCars}
+                    API_BASE_URL={API_BASE_URL}
                   />
                 ))
               ) : (
