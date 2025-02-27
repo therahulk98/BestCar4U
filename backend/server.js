@@ -12,9 +12,23 @@ const app = express();
 app.use(express.json());
 
 
+const allowedOrigins = [
+    "http://localhost:5173",
+    "https://best-car4u-frontend-git-master-rahul-kumars-projects-39e85759.vercel.app",
+    "https://bestcar4u.onrender.com"
+];
+
 app.use(cors({
-    origin: "https://best-car4u-frontend.vercel.app" //http://localhost:5173
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error("Not allowed by CORS"));
+        }
+    },
+    credentials: true // Enable credentials (if using cookies or authorization headers)
 }));
+
 
 // ✅ Use Routes
 app.use("/api/auth", authRouter);
